@@ -5,17 +5,17 @@ import Card from './Card';
 function App() {
   return (
     <div className="App">
-      <h1>Parques de atracciones</h1>
+      <h1>Estadios de Futbol</h1>
       <div className="card-container">
         <Card
-          title="Disneyland"
-          description="Un gran parque de atracciones con temática de disney."
-          image="https://upload.wikimedia.org/wikipedia/commons/thumb/7/70/Sleeping_Beauty_Castle_Disneyland_Anaheim_2013.jpg/1200px-Sleeping_Beauty_Castle_Disneyland_Anaheim_2013.jpg" // Usa tu propia imagen aquí
+          title="Estadio Santiago Bernabeu"
+          description="La casa del club mas grande del mundo, El Real Madrid CF."
+          image="https://publish-p47754-e237306.adobeaemcloud.com/adobe/dynamicmedia/deliver/dm-aid--859d7ffa-751b-4ca5-a636-4d83642b2c32/_330838956259.app.webp?preferwebp=true" // Usa tu propia imagen aquí
         />
         <Card
-          title="Universal’s Islands of Adventure"
-          description="Es un parque temático en Orlando, Florida, parte de Universal Orlando Resort."
-          image="https://blog.discoveruniversal.com/wp-content/uploads/2017/12/Universals-Islands-of-Adventure.jpg" // Usa tu propia imagen aquí
+          title="El Camp Nou"
+          description="Hogar del FC Barcelona cuna del que para muchos es el mejor jugador de futbol en la historia"
+          image="https://www.fcbarcelona.com/photo-resources/2021/08/09/276ad270-e5c6-453d-8d9f-212417ad7cb3/Camp-Nou-3.jpg?width=1200&height=750" // Usa tu propia imagen aquí
         />
       </div>
     </div>
